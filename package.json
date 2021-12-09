@@ -1,0 +1,26 @@
+{
+  "name": "red2cord",
+  "version": "2.1.4",
+  "description": "red2cord makes posting Reddit posts to Discord through webhooks easy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reddit",
+    "discord",
+    "webhook"
+  ],
+  "files": [
+    "index.js",
+    "embed.js",
+    "post.js",
+    "README.md"
+  ],
+  "author": "imthehumanoid",
+  "license": "ISC",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "node-reddit-js": "^0.0.11"
+  }
+}
